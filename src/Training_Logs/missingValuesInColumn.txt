@@ -1,0 +1,18 @@
+2022-07-05/19:26:45		Missing Values Validation Started!!
+2022-07-05/19:26:45		Error Occured while moving the file :: <class 'OSError'>
+2022-07-05/19:35:27		Missing Values Validation Started!!
+2022-07-05/19:35:29		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:04:01		Missing Values Validation Started!!
+2022-07-05/20:04:03		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:05:22		Missing Values Validation Started!!
+2022-07-05/20:05:24		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:07:21		Missing Values Validation Started!!
+2022-07-05/20:07:23		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:12:05		Missing Values Validation Started!!
+2022-07-05/20:12:07		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:19:38		Missing Values Validation Started!!
+2022-07-05/20:19:40		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:24:09		Missing Values Validation Started!!
+2022-07-05/20:24:11		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-05/20:25:54		Missing Values Validation Started!!
+2022-07-05/20:25:56		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv

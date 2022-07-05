@@ -1,0 +1,5 @@
+2022-07-05/20:19:49		Data Transformation failed because:: 'Wafer'
+2022-07-05/20:24:18		 dataset_full.csv: Quotes added successfully!!
+2022-07-05/20:24:20		 dataset_full.csv: File Transformed successfully!!
+2022-07-05/20:26:03		 dataset_full.csv: Quotes added successfully!!
+2022-07-05/20:26:05		 dataset_full.csv: Missing values replaced by Null values Successfully!!

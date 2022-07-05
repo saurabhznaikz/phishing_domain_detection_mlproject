@@ -4,25 +4,19 @@ from os import listdir
 
 import pandas
 import pandas as pd
-
 from src.application_logging.logger import App_Logger
 
-
 class dataTransform:
-
      """
                This class shall be used for transforming the Good Raw Training Data before loading it in Database!!.
-
                Written By: Saurabh Naik
                Version: 1.0
                Revisions: None
-
-               """
+     """
 
      def __init__(self):
             self.goodDataPath = "../data/good_raw"
             self.logger = App_Logger()
-
 
      def addQuotesToStringValuesInColumn(self):
           """
@@ -30,13 +24,10 @@ class dataTransform:
                                            Description: This method converts all the columns with string datatype such that
                                                        each value for that column is enclosed in quotes. This is done
                                                        to avoid the error while inserting string values in table as varchar.
-
-                                            Written By: Saurabh Naik
+                                           Written By: Saurabh Naik
                                            Version: 1.0
                                            Revisions: None
-
           """
-
           log_file = open("Training_Logs/dataTransformLog.txt", 'a+')
           try:
                onlyfiles = [f for f in listdir(self.goodDataPath)]
@@ -66,7 +57,6 @@ class dataTransform:
                                            Revisions: None
 
           """
-
           log_file = open("Training_Logs/dataTransformLog.txt", 'a+')
           try:
                onlyfiles = [f for f in listdir(self.goodDataPath)]

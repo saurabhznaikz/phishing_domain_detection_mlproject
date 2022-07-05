@@ -1,15 +1,9 @@
-import os
-from datetime import datetime
-
 from src.DataTransform_Training.DataTransformation import dataTransform
 from src.Training_Raw_data_validation.rawValidation import Raw_Data_validation
 # from DataTypeValidation_Insertion_Training.DataTypeValidation import dBOperation
-# from DataTransform_Training.DataTransformation import dataTransform
 from src.application_logging import logger
-from os import listdir
+import os
 
-
-#
 class train_validation:
     def __init__(self, path):
         self.raw_data = Raw_Data_validation(path)
@@ -28,15 +22,14 @@ class train_validation:
             # validating if any column has all values missing
             self.raw_data.validateMissingValuesInWholeColumn()
             self.log_writer.log(self.file_object, "Raw Data Validation Complete!!")
-
+            ########################################################################
             self.log_writer.log(self.file_object, "Starting Data Transforamtion!!")
             # below function adds quotes to the '?' values in some columns.
             self.dataTransform.addQuotesToStringValuesInColumn()
             # replacing blanks in the csv file with "Null" values to insert in table
             self.dataTransform.replaceMissingWithNull()
-
             self.log_writer.log(self.file_object, "DataTransformation Completed!!!")
-
+            ########################################################################
             # self.log_writer.log(self.file_object,
             #                     "Creating Training_Database and tables on the basis of given schema!!!")
             # # create database with given name, if present open the connection! Create table with columns given in schema

@@ -1,0 +1,56 @@
+2022-07-05/17:55:20		NumberofColumns:: 112
+
+2022-07-05/18:01:16		NumberofColumns:: 112
+
+2022-07-05/18:04:27		NumberofColumns:: 112
+
+2022-07-05/18:05:01		NumberofColumns:: 112
+
+2022-07-05/18:05:50		NumberofColumns:: 112
+
+2022-07-05/18:06:27		NumberofColumns:: 112
+
+2022-07-05/18:06:42		NumberofColumns:: 112
+
+2022-07-05/18:08:09		NumberofColumns:: 112
+
+2022-07-05/18:09:33		NumberofColumns:: 112
+
+2022-07-05/18:10:04		NumberofColumns:: 112
+
+2022-07-05/18:10:35		NumberofColumns:: 112
+
+2022-07-05/18:11:42		NumberofColumns:: 112
+
+2022-07-05/18:12:51		NumberofColumns:: 112
+
+2022-07-05/18:14:03		NumberofColumns:: 112
+
+2022-07-05/18:16:24		NumberofColumns:: 112
+
+2022-07-05/18:21:31		NumberofColumns:: 112
+
+2022-07-05/18:22:38		NumberofColumns:: 112
+
+2022-07-05/18:22:59		NumberofColumns:: 112
+
+2022-07-05/18:23:49		NumberofColumns:: 112
+
+2022-07-05/18:24:18		NumberofColumns:: 112
+
+2022-07-05/18:28:24		NumberofColumns:: 112
+
+2022-07-05/18:31:14		NumberofColumns:: 112
+
+2022-07-05/18:32:32		NumberofColumns:: 112
+
+2022-07-05/18:33:24		NumberofColumns:: 112
+
+2022-07-05/18:34:35		NumberofColumns:: 112
+
+2022-07-05/18:35:06		NumberofColumns:: 112
+
+2022-07-05/18:37:16		NumberofColumns:: 112
+
+2022-07-05/18:39:18		NumberofColumns:: 112
+

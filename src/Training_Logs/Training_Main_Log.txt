@@ -53,3 +53,33 @@
 2022-07-05/20:25:57		Raw Data Validation Complete!!
 2022-07-05/20:25:57		Starting Data Transforamtion!!
 2022-07-05/20:26:05		DataTransformation Completed!!!
+2022-07-06/17:26:40		Start of Validation on files!!
+2022-07-06/17:26:42		Raw Data Validation Complete!!
+2022-07-06/17:26:42		Starting Data Transforamtion!!
+2022-07-06/17:26:50		DataTransformation Completed!!!
+2022-07-06/17:26:50		Creating Training_Database and tables on the basis of given schema!!!
+2022-07-06/17:28:07		Start of Validation on files!!
+2022-07-06/17:28:09		Raw Data Validation Complete!!
+2022-07-06/17:28:09		Starting Data Transforamtion!!
+2022-07-06/17:28:17		DataTransformation Completed!!!
+2022-07-06/17:28:17		Creating Training_Database and tables on the basis of given schema!!!
+2022-07-06/17:33:21		Start of Validation on files!!
+2022-07-06/17:33:25		Raw Data Validation Complete!!
+2022-07-06/17:33:25		Starting Data Transforamtion!!
+2022-07-06/17:33:35		DataTransformation Completed!!!
+2022-07-06/17:33:35		Creating Training_Database and tables on the basis of given schema!!!
+2022-07-06/17:34:36		Start of Validation on files!!
+2022-07-06/17:34:39		Raw Data Validation Complete!!
+2022-07-06/17:34:39		Starting Data Transforamtion!!
+2022-07-06/17:34:51		DataTransformation Completed!!!
+2022-07-06/17:34:51		Creating Training_Database and tables on the basis of given schema!!!
+2022-07-06/17:35:16		Start of Validation on files!!
+2022-07-06/17:35:19		Raw Data Validation Complete!!
+2022-07-06/17:35:19		Starting Data Transforamtion!!
+2022-07-06/17:35:28		DataTransformation Completed!!!
+2022-07-06/17:35:28		Creating Training_Database and tables on the basis of given schema!!!
+2022-07-06/17:36:32		Start of Validation on files!!
+2022-07-06/17:36:34		Raw Data Validation Complete!!
+2022-07-06/17:36:34		Starting Data Transforamtion!!
+2022-07-06/17:36:43		DataTransformation Completed!!!
+2022-07-06/17:36:43		Creating Training_Database and tables on the basis of given schema!!!

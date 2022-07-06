@@ -1,6 +1,6 @@
 from src.DataTransform_Training.DataTransformation import dataTransform
 from src.Training_Raw_data_validation.rawValidation import Raw_Data_validation
-# from DataTypeValidation_Insertion_Training.DataTypeValidation import dBOperation
+from src.DataTypeValidation_Insertion_training.DataTypeValidation import dBOperation
 from src.application_logging import logger
 import os
 
@@ -8,7 +8,7 @@ class train_validation:
     def __init__(self, path):
         self.raw_data = Raw_Data_validation(path)
         self.dataTransform = dataTransform()
-        # self.dBOperation = dBOperation()
+        self.dBOperation = dBOperation()
         self.file_object = open("Training_Logs/Training_Main_Log.txt", 'a+')
         self.log_writer = logger.App_Logger()
 
@@ -30,8 +30,9 @@ class train_validation:
             self.dataTransform.replaceMissingWithNull()
             self.log_writer.log(self.file_object, "DataTransformation Completed!!!")
             ########################################################################
-            # self.log_writer.log(self.file_object,
-            #                     "Creating Training_Database and tables on the basis of given schema!!!")
+            self.log_writer.log(self.file_object,
+                                "Creating Training_Database and tables on the basis of given schema!!!")
+            self.dBOperation.dataBaseConnection()
             # # create database with given name, if present open the connection! Create table with columns given in schema
             # self.dBOperation.createTableDb('Training', column_names)
             # self.log_writer.log(self.file_object, "Table creation Completed!!")

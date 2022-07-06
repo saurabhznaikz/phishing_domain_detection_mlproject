@@ -16,3 +16,15 @@
 2022-07-05/20:24:11		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
 2022-07-05/20:25:54		Missing Values Validation Started!!
 2022-07-05/20:25:56		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-06/17:26:40		Missing Values Validation Started!!
+2022-07-06/17:26:42		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-06/17:28:07		Missing Values Validation Started!!
+2022-07-06/17:28:09		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-06/17:33:21		Missing Values Validation Started!!
+2022-07-06/17:33:25		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-06/17:34:36		Missing Values Validation Started!!
+2022-07-06/17:34:39		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-06/17:35:16		Missing Values Validation Started!!
+2022-07-06/17:35:19		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv
+2022-07-06/17:36:32		Missing Values Validation Started!!
+2022-07-06/17:36:34		Every Column has atleast one non empty field !! File kept in Good Raw Folder :: dataset_full.csv

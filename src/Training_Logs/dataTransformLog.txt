@@ -3,3 +3,15 @@
 2022-07-05/20:24:20		 dataset_full.csv: File Transformed successfully!!
 2022-07-05/20:26:03		 dataset_full.csv: Quotes added successfully!!
 2022-07-05/20:26:05		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/17:26:48		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/17:26:50		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/17:28:15		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/17:28:17		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/17:33:32		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/17:33:35		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/17:34:49		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/17:34:51		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/17:35:25		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/17:35:28		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/17:36:41		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/17:36:43		 dataset_full.csv: Missing values replaced by Null values Successfully!!

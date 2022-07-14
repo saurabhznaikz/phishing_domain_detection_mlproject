@@ -15,3 +15,167 @@
 2022-07-06/17:35:28		 dataset_full.csv: Missing values replaced by Null values Successfully!!
 2022-07-06/17:36:41		 dataset_full.csv: Quotes added successfully!!
 2022-07-06/17:36:43		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:09:45		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:09:49		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:11:34		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:11:38		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:15:38		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:15:40		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:17:41		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:17:43		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:18:36		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:18:38		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:24:30		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:24:32		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:38:02		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:38:04		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:39:06		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:39:08		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:40:46		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:40:49		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:41:12		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:41:14		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:44:30		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:44:32		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:46:20		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:46:22		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:48:53		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:48:54		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:50:20		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:50:22		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:55:10		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:55:12		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:57:51		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:57:53		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:58:35		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:58:39		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/18:59:23		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/18:59:25		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:00:26		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:00:28		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:14:03		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:14:05		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:39:14		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:39:16		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:39:52		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:39:54		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:40:44		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:40:46		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:41:50		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:41:53		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:43:39		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:43:41		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:45:40		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:45:42		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:47:10		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:47:12		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:52:05		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:52:07		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-06/19:52:59		 dataset_full.csv: Quotes added successfully!!
+2022-07-06/19:53:01		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/17:53:49		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/17:53:55		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/17:56:32		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/17:56:37		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/17:58:25		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/17:58:28		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:01:59		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:02:01		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:03:12		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:03:14		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:04:16		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:04:18		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:06:52		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:06:54		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:26:32		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:26:34		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:27:47		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:27:49		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:29:46		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:29:48		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:34:38		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:34:40		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:36:10		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:36:12		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:38:34		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:38:36		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:43:21		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:43:23		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:45:09		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:45:11		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:47:56		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:47:58		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:49:01		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:49:04		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:50:50		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:50:51		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:53:43		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:53:45		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:54:47		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:54:49		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/18:55:28		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/18:55:30		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:12:07		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:12:09		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:17:06		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:17:08		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:18:24		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:18:26		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:25:09		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:25:11		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:26:38		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:26:40		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:28:10		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:28:12		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:29:48		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:29:50		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:32:01		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:32:03		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:33:36		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:33:37		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:34:06		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:34:08		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:34:45		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:34:47		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:35:17		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:35:19		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:36:49		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:36:51		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:42:34		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:42:36		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:43:50		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:43:51		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:46:42		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:46:44		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:51:52		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:51:54		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:56:43		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:56:45		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/19:59:03		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/19:59:05		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/20:00:35		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/20:00:37		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-11/20:12:25		 dataset_full.csv: Quotes added successfully!!
+2022-07-11/20:12:27		 dataset_full.csv: Missing values replaced by Null values Successfully!!
+2022-07-13/20:40:44		 raw_data.csv: Quotes added successfully!!
+2022-07-13/20:40:46		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-13/20:44:02		 raw_data.csv: Quotes added successfully!!
+2022-07-13/20:44:04		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-13/21:24:28		 raw_data.csv: Quotes added successfully!!
+2022-07-13/21:24:30		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-13/21:33:16		 raw_data.csv: Quotes added successfully!!
+2022-07-13/21:33:17		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-13/21:34:52		 raw_data.csv: Quotes added successfully!!
+2022-07-13/21:34:53		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-13/21:38:38		 raw_data.csv: Quotes added successfully!!
+2022-07-13/21:38:39		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-14/17:57:19		 raw_data.csv: Quotes added successfully!!
+2022-07-14/17:57:21		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-14/17:57:54		 raw_data.csv: Quotes added successfully!!
+2022-07-14/17:57:55		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-14/18:00:14		 raw_data.csv: Quotes added successfully!!
+2022-07-14/18:00:17		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-14/18:06:03		 raw_data.csv: Quotes added successfully!!
+2022-07-14/18:06:04		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-14/18:14:40		 raw_data.csv: Quotes added successfully!!
+2022-07-14/18:14:41		 raw_data.csv: Missing values replaced by Null values Successfully!!

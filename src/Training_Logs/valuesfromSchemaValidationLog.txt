@@ -84,3 +84,175 @@
 
 2022-07-06/17:36:32		NumberofColumns:: 112
 
+2022-07-06/18:09:34		NumberofColumns:: 112
+
+2022-07-06/18:11:24		NumberofColumns:: 112
+
+2022-07-06/18:15:30		NumberofColumns:: 112
+
+2022-07-06/18:17:32		NumberofColumns:: 112
+
+2022-07-06/18:18:28		NumberofColumns:: 112
+
+2022-07-06/18:24:22		NumberofColumns:: 112
+
+2022-07-06/18:37:53		NumberofColumns:: 112
+
+2022-07-06/18:38:55		NumberofColumns:: 112
+
+2022-07-06/18:40:37		NumberofColumns:: 112
+
+2022-07-06/18:41:04		NumberofColumns:: 112
+
+2022-07-06/18:44:22		NumberofColumns:: 112
+
+2022-07-06/18:46:12		NumberofColumns:: 112
+
+2022-07-06/18:48:45		NumberofColumns:: 112
+
+2022-07-06/18:50:10		NumberofColumns:: 112
+
+2022-07-06/18:55:02		NumberofColumns:: 112
+
+2022-07-06/18:57:43		NumberofColumns:: 112
+
+2022-07-06/18:58:25		NumberofColumns:: 112
+
+2022-07-06/18:59:15		NumberofColumns:: 112
+
+2022-07-06/19:00:18		NumberofColumns:: 112
+
+2022-07-06/19:13:55		NumberofColumns:: 112
+
+2022-07-06/19:39:06		NumberofColumns:: 112
+
+2022-07-06/19:39:44		NumberofColumns:: 112
+
+2022-07-06/19:40:35		NumberofColumns:: 112
+
+2022-07-06/19:41:42		NumberofColumns:: 112
+
+2022-07-06/19:43:31		NumberofColumns:: 112
+
+2022-07-06/19:45:31		NumberofColumns:: 112
+
+2022-07-06/19:46:56		NumberofColumns:: 112
+
+2022-07-06/19:51:57		NumberofColumns:: 112
+
+2022-07-06/19:52:51		NumberofColumns:: 112
+
+2022-07-11/17:53:28		NumberofColumns:: 112
+
+2022-07-11/17:56:14		NumberofColumns:: 112
+
+2022-07-11/17:58:12		NumberofColumns:: 112
+
+2022-07-11/18:01:51		NumberofColumns:: 112
+
+2022-07-11/18:03:02		NumberofColumns:: 112
+
+2022-07-11/18:04:07		NumberofColumns:: 112
+
+2022-07-11/18:06:44		NumberofColumns:: 112
+
+2022-07-11/18:26:24		NumberofColumns:: 112
+
+2022-07-11/18:27:37		NumberofColumns:: 112
+
+2022-07-11/18:29:39		NumberofColumns:: 112
+
+2022-07-11/18:34:28		NumberofColumns:: 112
+
+2022-07-11/18:36:02		NumberofColumns:: 112
+
+2022-07-11/18:38:26		NumberofColumns:: 112
+
+2022-07-11/18:43:12		NumberofColumns:: 112
+
+2022-07-11/18:45:01		NumberofColumns:: 112
+
+2022-07-11/18:47:48		NumberofColumns:: 112
+
+2022-07-11/18:48:51		NumberofColumns:: 112
+
+2022-07-11/18:50:41		NumberofColumns:: 112
+
+2022-07-11/18:53:35		NumberofColumns:: 112
+
+2022-07-11/18:54:37		NumberofColumns:: 112
+
+2022-07-11/18:55:21		NumberofColumns:: 112
+
+2022-07-11/19:11:58		NumberofColumns:: 112
+
+2022-07-11/19:16:57		NumberofColumns:: 112
+
+2022-07-11/19:18:16		NumberofColumns:: 112
+
+2022-07-11/19:25:00		NumberofColumns:: 112
+
+2022-07-11/19:26:30		NumberofColumns:: 112
+
+2022-07-11/19:28:03		NumberofColumns:: 112
+
+2022-07-11/19:29:40		NumberofColumns:: 112
+
+2022-07-11/19:31:53		NumberofColumns:: 112
+
+2022-07-11/19:33:28		NumberofColumns:: 112
+
+2022-07-11/19:33:58		NumberofColumns:: 112
+
+2022-07-11/19:34:37		NumberofColumns:: 112
+
+2022-07-11/19:35:09		NumberofColumns:: 112
+
+2022-07-11/19:36:42		NumberofColumns:: 112
+
+2022-07-11/19:42:26		NumberofColumns:: 112
+
+2022-07-11/19:43:42		NumberofColumns:: 112
+
+2022-07-11/19:46:33		NumberofColumns:: 112
+
+2022-07-11/19:51:44		NumberofColumns:: 112
+
+2022-07-11/19:56:35		NumberofColumns:: 112
+
+2022-07-11/19:58:55		NumberofColumns:: 112
+
+2022-07-11/20:00:28		NumberofColumns:: 112
+
+2022-07-11/20:12:18		NumberofColumns:: 112
+
+2022-07-13/20:30:35		NumberofColumns:: 75
+
+2022-07-13/20:32:06		NumberofColumns:: 75
+
+2022-07-13/20:33:43		NumberofColumns:: 75
+
+2022-07-13/20:40:37		NumberofColumns:: 75
+
+2022-07-13/20:43:56		NumberofColumns:: 75
+
+2022-07-13/21:23:04		NumberofColumns:: 75
+
+2022-07-13/21:24:21		NumberofColumns:: 74
+
+2022-07-13/21:33:11		NumberofColumns:: 74
+
+2022-07-13/21:34:46		NumberofColumns:: 74
+
+2022-07-13/21:38:32		NumberofColumns:: 74
+
+2022-07-14/17:57:11		NumberofColumns:: 74
+
+2022-07-14/17:57:49		NumberofColumns:: 74
+
+2022-07-14/18:00:05		NumberofColumns:: 74
+
+2022-07-14/18:05:58		NumberofColumns:: 74
+
+2022-07-14/18:14:35		NumberofColumns:: 74
+

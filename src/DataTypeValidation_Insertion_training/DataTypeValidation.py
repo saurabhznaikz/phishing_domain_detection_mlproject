@@ -54,63 +54,62 @@ class dBOperation:
             raise ConnectionError
         return session
 
-    def createTableDb(self,DatabaseName,column_names):
+    def createTableDb(self,column_names):
         """
                         Method Name: createTableDb
                         Description: This method creates a table in the given database which will be used to insert the Good data after raw data validation.
                         Output: None
                         On Failure: Raise Exception
 
-                         Written By: iNeuron Intelligence
+                         Written By: Saurabh Naik
                         Version: 1.0
                         Revisions: None
 
                         """
         try:
-            conn = self.dataBaseConnection(DatabaseName)
-            c=conn.cursor()
-            c.execute("SELECT count(name)  FROM sqlite_master WHERE type = 'table'AND name = 'Good_Raw_Data'")
-            if c.fetchone()[0] ==1:
-                conn.close()
+            session = self.dataBaseConnection()
+            row = session.execute("SELECT * FROM phishing_training.Good_Raw_Data")
+            length=len(row.column_names)
+            if length > 0:
                 file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
                 self.logger.log(file, "Tables created successfully!!")
                 file.close()
 
                 file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
-                self.logger.log(file, "Closed %s database successfully" % DatabaseName)
+                self.logger.log(file, "Closed database successfully")
                 file.close()
 
             else:
-
                 for key in column_names.keys():
                     type = column_names[key]
 
-                    #in try block we check if the table exists, if yes then add columns to the table
-                    # else in catch block we will create the table
+                    #in try block we create table and then add columns in it
+                    # else in catch block we will find the exception
                     try:
-                        #cur = cur.execute("SELECT name FROM {dbName} WHERE type='table' AND name='Good_Raw_Data'".format(dbName=DatabaseName))
-                        conn.execute('ALTER TABLE Good_Raw_Data ADD COLUMN "{column_name}" {dataType}'.format(column_name=key,dataType=type))
-                    except:
-                        conn.execute('CREATE TABLE  Good_Raw_Data ({column_name} {dataType})'.format(column_name=key, dataType=type))
+                        row = session.execute("SELECT * FROM phishing_training.Good_Raw_Data")
+                        print(row.fetchone()[0])
+                        session.execute('CREATE TABLE  phishing_training.Good_Raw_Data (id int PRIMARY KEY)')
+                        session.execute('ALTER TABLE phishing_training.Good_Raw_Data ADD "{column_name}" {dataType}'.format(column_name=key,dataType=type))
+                    except Exception as e:
+                        file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
+                        self.logger.log(file, "Error while creating table: %s " % e)
+                        file.close()
 
-
-                conn.close()
 
                 file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
                 self.logger.log(file, "Tables created successfully!!")
                 file.close()
 
                 file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
-                self.logger.log(file, "Closed %s database successfully" % DatabaseName)
+                self.logger.log(file, "Closed database successfully")
                 file.close()
 
         except Exception as e:
             file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
             self.logger.log(file, "Error while creating table: %s " % e)
             file.close()
-            conn.close()
             file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
-            self.logger.log(file, "Closed %s database successfully" % DatabaseName)
+            self.logger.log(file, "Closed database successfully")
             file.close()
             raise e
 

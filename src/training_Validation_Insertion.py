@@ -32,10 +32,9 @@ class train_validation:
             ########################################################################
             self.log_writer.log(self.file_object,
                                 "Creating Training_Database and tables on the basis of given schema!!!")
-            self.dBOperation.dataBaseConnection()
-            # # create database with given name, if present open the connection! Create table with columns given in schema
-            # self.dBOperation.createTableDb('Training', column_names)
-            # self.log_writer.log(self.file_object, "Table creation Completed!!")
+            # create database with given name, if present open the connection! Create table with columns given in schema
+            self.dBOperation.createTableDb(column_names)
+            self.log_writer.log(self.file_object, "Table creation Completed !!")
             # self.log_writer.log(self.file_object, "Insertion of Data into Table started!!!!")
             # # insert csv files in the table
             # self.dBOperation.insertIntoTableGoodData('Training')

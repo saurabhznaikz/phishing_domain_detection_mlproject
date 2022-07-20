@@ -35,10 +35,10 @@ class train_validation:
             # create database with given name, if present open the connection! Create table with columns given in schema
             self.dBOperation.createTableDb(column_names)
             self.log_writer.log(self.file_object, "Table creation Completed !!")
-            # self.log_writer.log(self.file_object, "Insertion of Data into Table started!!!!")
-            # # insert csv files in the table
-            # self.dBOperation.insertIntoTableGoodData('Training')
-            # self.log_writer.log(self.file_object, "Insertion in Table completed!!!")
+            self.log_writer.log(self.file_object, "Insertion of Data into Table started!!!!")
+            # insert csv files in the table
+            self.dBOperation.insertIntoTableGoodData()
+            self.log_writer.log(self.file_object, "Insertion in Table completed!!!")
             # self.log_writer.log(self.file_object, "Deleting Good Data Folder!!!")
             # # Delete the good data folder after loading files in table
             # self.raw_data.deleteExistingGoodDataTrainingFolder()

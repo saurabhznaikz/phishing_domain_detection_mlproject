@@ -37,8 +37,8 @@ class train_validation:
             self.log_writer.log(self.file_object, "Table creation Completed !!")
             self.log_writer.log(self.file_object, "Insertion of Data into Table started!!!!")
             # insert csv files in the table
-            self.dBOperation.insertIntoTableGoodData()
-            self.log_writer.log(self.file_object, "Insertion in Table completed!!!")
+            # self.dBOperation.insertIntoTableGoodData()
+            # self.log_writer.log(self.file_object, "Insertion in Table completed!!!")
             # self.log_writer.log(self.file_object, "Deleting Good Data Folder!!!")
             # # Delete the good data folder after loading files in table
             # self.raw_data.deleteExistingGoodDataTrainingFolder()
@@ -49,9 +49,9 @@ class train_validation:
             # self.log_writer.log(self.file_object, "Bad files moved to archive!! Bad folder Deleted!!")
             # self.log_writer.log(self.file_object, "Validation Operation completed!!")
             # self.log_writer.log(self.file_object, "Extracting csv file from table")
-            # # export data in table to csvfile
-            # self.dBOperation.selectingDatafromtableintocsv('Training')
-            # self.file_object.close()
+            # export data in table to csvfile
+            self.dBOperation.selectingDatafromtableintocsv()
+            self.file_object.close()
 
         except Exception as e:
             raise e

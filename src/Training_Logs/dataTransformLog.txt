@@ -424,3 +424,35 @@
 2022-07-19/21:16:49		 raw_data.csv: Missing values replaced by Null values Successfully!!
 2022-07-19/21:17:36		 raw_data.csv: Quotes added successfully!!
 2022-07-19/21:17:37		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/10:41:22		 raw_data.csv: Quotes added successfully!!
+2022-07-20/10:41:23		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/14:29:47		 raw_data.csv: Quotes added successfully!!
+2022-07-20/14:29:48		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/15:25:49		 raw_data.csv: Quotes added successfully!!
+2022-07-20/15:25:50		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/16:42:05		 raw_data.csv: Quotes added successfully!!
+2022-07-20/16:42:06		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/21:02:44		 raw_data.csv: Quotes added successfully!!
+2022-07-20/21:02:44		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/21:43:58		 raw_data.csv: Quotes added successfully!!
+2022-07-20/21:43:58		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-20/22:11:06		 raw_data.csv: Quotes added successfully!!
+2022-07-20/22:11:06		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-21/10:14:27		 raw_data.csv: Quotes added successfully!!
+2022-07-21/10:14:27		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-21/11:24:11		 raw_data.csv: Quotes added successfully!!
+2022-07-21/11:24:11		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-21/11:46:40		 raw_data.csv: Quotes added successfully!!
+2022-07-21/11:46:41		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-21/11:47:14		 raw_data.csv: Quotes added successfully!!
+2022-07-21/11:47:15		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-21/16:52:00		 raw_data.csv: Quotes added successfully!!
+2022-07-21/16:52:00		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-21/18:51:24		 raw_data.csv: Quotes added successfully!!
+2022-07-21/18:51:24		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-22/20:44:02		 raw_data.csv: Quotes added successfully!!
+2022-07-22/20:44:03		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-22/20:52:08		 raw_data.csv: Quotes added successfully!!
+2022-07-22/20:52:08		 raw_data.csv: Missing values replaced by Null values Successfully!!
+2022-07-22/21:05:04		 raw_data.csv: Quotes added successfully!!
+2022-07-22/21:05:05		 raw_data.csv: Missing values replaced by Null values Successfully!!

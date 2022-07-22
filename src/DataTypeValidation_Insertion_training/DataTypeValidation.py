@@ -22,6 +22,7 @@ class dBOperation:
         # self.path = "Training_Database/"
         # self.badFilePath = "Training_Raw_files_validated/Bad_Raw"
         self.goodFilePath = "../data/good_raw"
+        self.processedFilePath = "../data/processed"
         self.logger = App_Logger()
 
 
@@ -139,9 +140,11 @@ class dBOperation:
                 with open(goodFilePath+"/"+file, "r") as f:
                     df1 = pd.read_csv(f)
                     filename="../data/good_raw/raw_data.csv"
-                    for i in range(len(df1.index)):
+                    total_row=len(df1.index)
+                    for i in range(total_row):
                         df1 = pd.read_csv(filename)
-                        if (len(df1.index) != 0):
+                        length=len(df1.index)
+                        if ( length!= 0):
                             l1 = df1.loc[0].values.tolist()
                             list_ = ",".join(list(map(lambda x: "{y}".format(y=x), l1)))
                             count = session.execute(
@@ -151,11 +154,11 @@ class dBOperation:
                                 print("in if block")
                             else:
                                 id = session.execute(
-                                    "SELECT max(id) as id  FROM phishing_training.Good_Raw_Data").one().id + 1
+                                        "SELECT max(id) as id  FROM phishing_training.Good_Raw_Data").one().id + 1
                             session.execute(
                                 'INSERT INTO phishing_training.Good_Raw_Data ("id","asn_ip", "directory_length", "email_in_url", "file_length", "length_url", "params_length", "phishing", "qty_and_directory", "qty_and_file", "qty_and_params", "qty_and_url", "qty_asterisk_directory", "qty_asterisk_file", "qty_asterisk_params", "qty_at_directory", "qty_at_file", "qty_at_params", "qty_at_url", "qty_comma_directory", "qty_comma_file", "qty_comma_params", "qty_dollar_directory", "qty_dollar_file", "qty_dollar_params", "qty_dot_directory", "qty_dot_domain", "qty_dot_file", "qty_dot_params", "qty_dot_url", "qty_equal_directory", "qty_equal_file", "qty_equal_params", "qty_equal_url", "qty_exclamation_directory", "qty_exclamation_file", "qty_exclamation_params", "qty_hashtag_directory", "qty_hashtag_file", "qty_hashtag_params", "qty_hyphen_directory", "qty_hyphen_file", "qty_hyphen_params", "qty_hyphen_url", "qty_ip_resolved", "qty_params", "qty_percent_directory", "qty_percent_file", "qty_percent_params", "qty_plus_directory", "qty_plus_file", "qty_plus_params", "qty_questionmark_directory", "qty_questionmark_file", "qty_questionmark_params", "qty_slash_directory", "qty_slash_file", "qty_slash_params", "qty_slash_url", "qty_space_directory", "qty_space_file", "qty_space_params", "qty_tilde_directory", "qty_tilde_file", "qty_tilde_params", "qty_tld_url", "qty_underline_directory", "qty_underline_file", "qty_underline_params", "qty_underline_url", "qty_vowels_domain", "time_domain_activation", "time_domain_expiration", "tld_present_params", "ttl_hostname") VALUES ({id},{values})'.format(
                                     id=id, values=(list_)))
-                            print('Entries remaining :{remaining} Entries Entered : {id}'.format(remaining=len(df1.index),id=id))
+                            print('Entries remaining :{remaining} Entries Entered : {id}'.format(remaining=length,id=id))
                             self.logger.log(log_file, " %s: Entry loaded successfully!!" % file)
                             df1 = df1.iloc[1:]
                             df1.to_csv(filename, index=False)
@@ -170,7 +173,7 @@ class dBOperation:
         log_file.close()
 
 
-    def selectingDatafromtableintocsv(self,Database):
+    def selectingDatafromtableintocsv(self):
 
         """
                                Method Name: selectingDatafromtableintocsv
@@ -179,37 +182,28 @@ class dBOperation:
                                Output: None
                                On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
+                                Written By: Saurabh Naik
                                Version: 1.0
                                Revisions: None
 
         """
 
         self.fileFromDb = "Training_FileFromDB/"
+        processedFilePath = self.processedFilePath
         self.fileName = "InputFile.csv"
         log_file = open("Training_Logs/ExportToCsv.txt", "a+")
         try:
-            conn = self.dataBaseConnection(Database)
-            sqlSelect = "SELECT *  FROM Good_Raw_Data"
-            cursor = conn.cursor()
+            def pandas_factory(colnames, rows):
+                return pd.DataFrame(rows, columns=colnames)
 
-            cursor.execute(sqlSelect)
-
-            results = cursor.fetchall()
-            # Get the headers of the csv file
-            headers = [i[0] for i in cursor.description]
-
-            #Make the CSV ouput directory
-            if not os.path.isdir(self.fileFromDb):
-                os.makedirs(self.fileFromDb)
-
-            # Open CSV file for writing.
-            csvFile = csv.writer(open(self.fileFromDb + self.fileName, "w", newline=""),delimiter=",", lineterminator="\r\n",quoting=csv.QUOTE_ALL, escapechar="\\")
-
-            # Add the headers and data to the CSV file.
-            csvFile.writerow(headers)
-            csvFile.writerows(results)
-
+            session = self.dataBaseConnection()
+            session.row_factory = pandas_factory
+            session.default_fetch_size = None
+            query = "SELECT *  FROM phishing_training.Good_Raw_Data"
+            rslt = session.execute(query, timeout=None)
+            df = rslt._current_rows
+            df.to_csv(self.fileName, index=False)
+            shutil.move(os.getcwd() +"/" + self.fileName, processedFilePath + "/" + self.fileName)
             self.logger.log(log_file, "File exported successfully!!!")
             log_file.close()
 

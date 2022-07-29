@@ -1,0 +1,10 @@
+stages:
+  data_preprocessing:
+    cmd: python -m src.ML_pipelines.stage_01_data_preprocessing --config=params.yaml
+    deps:
+      - src\ML_pipelines\stage_01_data_preprocessing.py
+    params:
+      - data_source.data_source
+      - preprocessed_data.preprocessed_data
+    outs:
+      - data\preprocessed\preprocessed.csv

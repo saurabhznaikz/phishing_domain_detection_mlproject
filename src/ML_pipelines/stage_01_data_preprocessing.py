@@ -1,19 +1,8 @@
-import os
 from pathlib import Path
-import pandas as pd
 import argparse
-from src.utils.common_utils import read_params, clean_prev_dirs_if_exists, save_local_df, create_dir,correlation
-import logging
-import numpy as np
+from src.utils.common_utils import read_params, clean_prev_dirs_if_exists, create_dir,correlation
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn import preprocessing
-import scipy.stats as stat
-import pylab
-import scipy.stats as stats
 from src.application_logging.logger import App_Logger
-from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
 
 
@@ -100,8 +89,6 @@ def data_preprocessing(config_path):
         file = open(path, "a+")
         logger.log(file, "error encountered due to: %s" %e)
         raise e
-
-
 
 
 if __name__ == '__main__':

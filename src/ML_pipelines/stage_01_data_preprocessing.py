@@ -21,12 +21,15 @@ def data_preprocessing(config_path):
 
                     """
     try:
-        #Reading of params from params.yaml file
+
+        # Initializing Logger object
         logger = App_Logger()
         p = Path(__file__).parents[2]
         path=str(p)+"/src/Training_Logs/DataPreprocessingLog.txt"
         file = open(path, "a+")
         logger.log(file, "Data preprocessing started ")
+
+        # Reading of params from params.yaml file
         config = read_params(config_path)
         data_path = config["data_source"]["data_source"]
         preprocessed_dir = config["preprocessed_data"]["preprocessed_dir"]
@@ -82,6 +85,7 @@ def data_preprocessing(config_path):
         path = str(p) + str(preprocessed_data)
         df_final.to_csv(path, index=False)
         logger.log(file, "Data preprocessing completed")
+
     except Exception as e:
         logger = App_Logger()
         p = Path(__file__).parents[2]

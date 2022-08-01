@@ -4,8 +4,8 @@ stages:
     cmd: python -m src.ML_pipelines.stage_01_data_preprocessing --config=params.yaml
     deps:
     - path: src\ML_pipelines\stage_01_data_preprocessing.py
-      md5: 7deeb09d89280fa236b8b694f226907c
-      size: 4936
+      md5: 524e198bc9a212185b4ad7a1099f6d99
+      size: 4682
     params:
       params.yaml:
         data_source.data_source: \data\processed\Input.csv
@@ -14,3 +14,34 @@ stages:
     - path: data\preprocessed\preprocessed.csv
       md5: a1a60a1377897c31c3373344534f1d6d
       size: 16242970
+  data_clustering:
+    cmd: python -m src.ML_pipelines.stage_02_data_clustering --config=params.yaml
+    deps:
+    - path: data\preprocessed\preprocessed.csv
+      md5: a1a60a1377897c31c3373344534f1d6d
+      size: 16242970
+    - path: src\ML_pipelines\stage_02_data_clustering.py
+      md5: 15958265a5c8cdfb8fc6ffb6cdd9f35d
+      size: 4143
+    - path: src\utils\common_utils.py
+      md5: fdaafce7591771afd0fe790c0b47b2d0
+      size: 5761
+    params:
+      params.yaml:
+        base.random_state: 42
+        base.target_col: phishing
+        elbow_method_parameters.Cluster: Cluster
+        elbow_method_parameters.clustered_data: \data\clustered\clustered.csv
+        elbow_method_parameters.clustered_dir: \data\clustered
+        elbow_method_parameters.curve: convex
+        elbow_method_parameters.direction: decreasing
+        elbow_method_parameters.figure_name: K-Means_Elbow.png
+        elbow_method_parameters.init: k-means++
+        elbow_method_parameters.title: The Elbow Method
+        elbow_method_parameters.xlabel: Number of clusters
+        elbow_method_parameters.ylabel: WCSS
+        preprocessed_data.preprocessed_data: \data\preprocessed\preprocessed.csv
+    outs:
+    - path: data\clustered\clustered.csv
+      md5: 483e8bcd75ab256faa78228a5af1b18b
+      size: 16474978

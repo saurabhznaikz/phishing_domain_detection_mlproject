@@ -11,3 +11,15 @@ data_source:
 preprocessed_data:
   preprocessed_dir: \data\preprocessed
   preprocessed_data: \data\preprocessed\preprocessed.csv
+
+elbow_method_parameters:
+  init: k-means++
+  title: The Elbow Method
+  xlabel: Number of clusters
+  ylabel: WCSS
+  figure_name: K-Means_Elbow.png
+  curve: convex
+  direction: decreasing
+  Cluster: Cluster
+  clustered_dir: \data\clustered
+  clustered_data: \data\clustered\clustered.csv

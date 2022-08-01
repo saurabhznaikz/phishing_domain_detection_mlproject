@@ -94,3 +94,12 @@
 2022-07-29/20:28:12		Feature Selection Started...
 2022-07-29/20:28:16		Feature Selection Completed
 2022-07-29/20:28:19		Data preprocessing completed
+2022-08-01/16:47:54		Data preprocessing started 
+2022-08-01/16:47:55		Feature Engineering Started...
+2022-08-01/16:47:55		Handling imbalanced dataset.
+2022-08-01/16:48:45		Imbalanced Dataset handled by SMOTE
+2022-08-01/16:48:45		Handling outliers in all features of  dataset.
+2022-08-01/16:48:47		Outliers have been handled
+2022-08-01/16:48:47		Feature Selection Started...
+2022-08-01/16:48:51		Feature Selection Completed
+2022-08-01/16:48:54		Data preprocessing completed

@@ -5,29 +5,35 @@ stages:
       - src\ML_pipelines\stage_01_data_preprocessing.py
     params:
       - data_source.data_source
-      - preprocessed_data.preprocessed_data
+      - preprocessed_data.preprocessed_dir
     outs:
-      - data\preprocessed\preprocessed.csv
+      - data\preprocessed\train.csv
+      - data\preprocessed\test.csv
 
   data_clustering:
     cmd: python -m src.ML_pipelines.stage_02_data_clustering --config=params.yaml
     deps:
       - src\ML_pipelines\stage_02_data_clustering.py
       - src\utils\common_utils.py
-      - data\preprocessed\preprocessed.csv
+      - data\preprocessed\train.csv
+      - data\preprocessed\test.csv
     params:
       - elbow_method_parameters.init
       - elbow_method_parameters.title
       - elbow_method_parameters.xlabel
       - elbow_method_parameters.ylabel
-      - elbow_method_parameters.figure_name
+      - elbow_method_parameters.figure_name_train
+      - elbow_method_parameters.figure_name_test
       - elbow_method_parameters.curve
       - elbow_method_parameters.direction
       - elbow_method_parameters.Cluster
       - elbow_method_parameters.clustered_dir
-      - elbow_method_parameters.clustered_data
+      - elbow_method_parameters.clustered_train_data
+      - elbow_method_parameters.clustered_test_data
       - base.random_state
       - base.target_col
-      - preprocessed_data.preprocessed_data
+      - preprocessed_data.train_data
+      - preprocessed_data.test_data
     outs:
-      - data\clustered\clustered.csv
+      - data\clustered\train_clustered.csv
+      - data\clustered\test_clustered.csv

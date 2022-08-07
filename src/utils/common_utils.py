@@ -60,7 +60,6 @@ def create_dir(dirs:list):
     for dir_path in dirs:
         p = Path(__file__).parents[2]
         path = str(p)
-        print(os.path.join(path, dir_path))
         os.makedirs(os.path.join(path, dir_path),exist_ok=True)
 
 def correlation(dataset, threshold):

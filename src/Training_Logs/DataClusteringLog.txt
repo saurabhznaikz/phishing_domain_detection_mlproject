@@ -144,3 +144,51 @@
 2022-08-01/16:49:51		Added Cluster column in Dataframe
 2022-08-01/16:49:51		Added Target Column
 2022-08-01/16:49:54		Data Clustering completed
+2022-08-07/15:40:40		Data Clustering started 
+2022-08-07/15:40:40		Finding the number of cluster
+2022-08-07/15:40:40		error encountered due to: [Errno 2] No such file or directory: 'C:\\Users\\Dell\\PycharmProjects\\Phishing_ml_project\\phishing_domain_detection_mlproject\\data\\preprocessed\\train.csv'
+2022-08-07/15:44:10		Data Clustering started 
+2022-08-07/15:44:10		Finding the number of cluster
+2022-08-07/15:44:11		Finding the number of cluster
+2022-08-07/15:44:51		The optimum number of clusters in training data is: 3
+2022-08-07/15:45:05		The optimum number of clusters in test data is: 3
+2022-08-07/15:45:07		Starting to Save the clustering model
+2022-08-07/15:45:07		Model Saved
+2022-08-07/15:45:07		Starting to Save the clustering model
+2022-08-07/15:45:07		Model Saved
+2022-08-07/15:45:07		Added Cluster column in training Dataframe
+2022-08-07/15:45:07		Added Target Column in training dataframe
+2022-08-07/15:45:07		Added Cluster column in test Dataframe
+2022-08-07/15:45:07		Added Target Column in test Dataframe
+2022-08-07/15:45:10		Data Clustering completed in train dataset
+2022-08-07/15:45:11		Data Clustering completed in test dataset
+2022-08-07/15:53:10		Data Clustering started 
+2022-08-07/15:53:10		Finding the number of cluster in train data
+2022-08-07/15:53:11		Finding the number of cluster in test data 
+2022-08-07/15:53:50		The optimum number of clusters in training data is: 3
+2022-08-07/15:54:03		The optimum number of clusters in test data is: 3
+2022-08-07/15:54:05		Starting to Save the train clustering model
+2022-08-07/15:54:05		train Model Saved
+2022-08-07/15:54:05		Starting to Save the test clustering model
+2022-08-07/15:54:05		test Model Saved
+2022-08-07/15:54:05		Added Cluster column in training Dataframe
+2022-08-07/15:54:05		Added Target Column in training dataframe
+2022-08-07/15:54:05		Added Cluster column in test Dataframe
+2022-08-07/15:54:05		Added Target Column in test Dataframe
+2022-08-07/15:54:08		Data Clustering completed in train dataset
+2022-08-07/15:54:09		Data Clustering completed in test dataset
+2022-08-07/16:03:19		Data Clustering started 
+2022-08-07/16:03:19		Finding the number of cluster in train data
+2022-08-07/16:03:20		Finding the number of cluster in test data 
+2022-08-07/16:03:59		The optimum number of clusters in training data is: 3
+2022-08-07/16:04:12		The optimum number of clusters in test data is: 3
+2022-08-07/16:04:15		Starting to Save the train clustering model
+2022-08-07/16:04:15		train Model Saved
+2022-08-07/16:04:15		Starting to Save the test clustering model
+2022-08-07/16:04:15		test Model Saved
+2022-08-07/16:04:15		Added Cluster column in training Dataframe
+2022-08-07/16:04:15		Added Target Column in training dataframe
+2022-08-07/16:04:15		Added Cluster column in test Dataframe
+2022-08-07/16:04:15		Added Target Column in test Dataframe
+2022-08-07/16:04:18		Data Clustering completed in train dataset
+2022-08-07/16:04:19		Data Clustering completed in test dataset

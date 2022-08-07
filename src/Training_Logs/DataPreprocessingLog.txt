@@ -103,3 +103,54 @@
 2022-08-01/16:48:47		Feature Selection Started...
 2022-08-01/16:48:51		Feature Selection Completed
 2022-08-01/16:48:54		Data preprocessing completed
+2022-08-07/15:06:31		Data preprocessing started 
+2022-08-07/15:06:32		Data reading Started...
+2022-08-07/15:06:33		Data split to avoid data leakage
+2022-08-07/15:06:33		Feature Engineering Started...
+2022-08-07/15:06:33		Handling imbalanced dataset.
+2022-08-07/15:06:58		Imbalanced Dataset handled by SMOTE
+2022-08-07/15:06:58		Handling outliers in all features of training dataset.
+2022-08-07/15:06:59		Outliers have been handled in training data
+2022-08-07/15:06:59		Handling outliers in all features of test dataset.
+2022-08-07/15:06:59		Outliers have been handled in training data
+2022-08-07/15:06:59		Feature Selection Started...
+2022-08-07/15:07:02		Removed correlated features from training data
+2022-08-07/15:07:03		Removed correlated features from test data
+2022-08-07/15:07:03		Removed features having 0 varience from training data
+2022-08-07/15:07:03		Removed features having 0 varience from test data
+2022-08-07/15:07:03		Feature Selection Completed
+2022-08-07/15:07:07		Data preprocessing completed
+2022-08-07/15:42:57		Data preprocessing started 
+2022-08-07/15:42:58		Data reading Started...
+2022-08-07/15:42:58		Data split to avoid data leakage
+2022-08-07/15:42:58		Feature Engineering Started...
+2022-08-07/15:42:58		Handling imbalanced dataset.
+2022-08-07/15:43:22		Imbalanced Dataset handled by SMOTE
+2022-08-07/15:43:22		Handling outliers in all features of training dataset.
+2022-08-07/15:43:23		Outliers have been handled in training data
+2022-08-07/15:43:23		Handling outliers in all features of test dataset.
+2022-08-07/15:43:24		Outliers have been handled in test data
+2022-08-07/15:43:24		Feature Selection Started...
+2022-08-07/15:43:27		Removed correlated features from training data
+2022-08-07/15:43:28		Removed correlated features from test data
+2022-08-07/15:43:28		Removed features having 0 varience from training data
+2022-08-07/15:43:28		Removed features having 0 varience from test data
+2022-08-07/15:43:28		Feature Selection Completed
+2022-08-07/15:43:32		Data preprocessing completed
+2022-08-07/16:02:39		Data preprocessing started 
+2022-08-07/16:02:40		Data reading Started...
+2022-08-07/16:02:40		Data split to avoid data leakage
+2022-08-07/16:02:40		Feature Engineering Started...
+2022-08-07/16:02:40		Handling imbalanced dataset.
+2022-08-07/16:03:04		Imbalanced Dataset handled by SMOTE
+2022-08-07/16:03:04		Handling outliers in all features of training dataset.
+2022-08-07/16:03:04		Outliers have been handled in training data
+2022-08-07/16:03:04		Handling outliers in all features of test dataset.
+2022-08-07/16:03:05		Outliers have been handled in test data
+2022-08-07/16:03:05		Feature Selection Started...
+2022-08-07/16:03:08		Removed correlated features from training data
+2022-08-07/16:03:09		Removed correlated features from test data
+2022-08-07/16:03:09		Removed features having 0 varience from training data
+2022-08-07/16:03:09		Removed features having 0 varience from test data
+2022-08-07/16:03:09		Feature Selection Completed
+2022-08-07/16:03:13		Data preprocessing completed

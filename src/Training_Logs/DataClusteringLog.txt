@@ -192,3 +192,18 @@
 2022-08-07/16:04:15		Added Target Column in test Dataframe
 2022-08-07/16:04:18		Data Clustering completed in train dataset
 2022-08-07/16:04:19		Data Clustering completed in test dataset
+2022-08-09/16:52:07		Data Clustering started 
+2022-08-09/16:52:07		Finding the number of cluster in train data
+2022-08-09/16:52:07		Finding the number of cluster in test data 
+2022-08-09/16:52:57		The optimum number of clusters in training data is: 3
+2022-08-09/16:53:16		The optimum number of clusters in test data is: 3
+2022-08-09/16:53:19		Starting to Save the train clustering model
+2022-08-09/16:53:19		train Model Saved
+2022-08-09/16:53:19		Starting to Save the test clustering model
+2022-08-09/16:53:19		test Model Saved
+2022-08-09/16:53:19		Added Cluster column in training Dataframe
+2022-08-09/16:53:19		Added Target Column in training dataframe
+2022-08-09/16:53:19		Added Cluster column in test Dataframe
+2022-08-09/16:53:19		Added Target Column in test Dataframe
+2022-08-09/16:53:23		Data Clustering completed in train dataset
+2022-08-09/16:53:24		Data Clustering completed in test dataset

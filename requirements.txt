@@ -16,7 +16,7 @@ awscli==1.25.22
 Babel==2.10.3
 binaryornot==0.4.4
 botocore==1.27.22
-Bottleneck @ file:///C:/ci/bottleneck_1648010921109/work
+Bottleneck ==1.3.4
 brotlipy==0.7.0
 cached-property==1.5.2
 cassandra-driver==3.25.0

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Phishing classifier</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Phishing domain detection</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="qty_slash_url" placeholder="qty_slash_url" required="required" /><br>
+    	<input type="text" name="length_url" placeholder="length_url" required="required" /><br>
+        <input type="text" name="qty_dot_domain" placeholder="qty_dot_domain" required="required" /><br>
+        <input type="text" name="qty_dot_directory" placeholder="qty_dot_directory" required="required" /><br>
+        <input type="text" name="qty_hyphen_directory" placeholder="qty_hyphen_directory" required="required" /><br>
+        <input type="text" name="file_length" placeholder="file_length" required="required" /><br>
+        <input type="text" name="qty_underline_directory" placeholder="qty_underline_directory" required="required" /><br>
+        <input type="text" name="asn_ip" placeholder="asn_ip" required="required" /><br>
+        <input type="text" name="time_domain_activation" placeholder="time_domain_activation" required="required" /><br>
+        <input type="text" name="time_domain_expiration" placeholder="time_domain_expiration" required="required" /><br>
+        <input type="text" name="ttl_hostname" placeholder="ttl_hostname" required="required" /><br>
+
+
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+
+
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>

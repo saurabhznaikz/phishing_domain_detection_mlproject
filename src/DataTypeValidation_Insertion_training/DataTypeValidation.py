@@ -190,7 +190,7 @@ class dBOperation:
 
         self.fileFromDb = "Training_FileFromDB/"
         processedFilePath = self.processedFilePath
-        self.fileName = "InputFile.csv"
+        self.fileName = "Input.csv"
         log_file = open("Training_Logs/ExportToCsv.txt", "a+")
         try:
             def pandas_factory(colnames, rows):

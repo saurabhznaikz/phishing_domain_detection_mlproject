@@ -13,7 +13,7 @@ from src.training_Validation_Insertion import train_validation
 app = Flask(__name__)
 # dashboard.bind(app)
 CORS(app)
-
+##
 @app.route("/", methods=['GET'])
 @cross_origin()
 def home():

@@ -1,0 +1,13 @@
+cmd: python -m src.ML_pipelines.stage_01_data_preprocessing --config=params.yaml
+deps:
+- path: src\ML_pipelines\stage_01_data_preprocessing.py
+  md5: 524e198bc9a212185b4ad7a1099f6d99
+  size: 4682
+params:
+  params.yaml:
+    data_source.data_source: \data\processed\Input.csv
+    preprocessed_data.preprocessed_data: \data\preprocessed\preprocessed.csv
+outs:
+- path: data\preprocessed\preprocessed.csv
+  md5: a1a60a1377897c31c3373344534f1d6d
+  size: 16242970

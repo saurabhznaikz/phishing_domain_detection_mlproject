@@ -1,138 +1,46 @@
-2022-08-12/13:24:24		Model Selection and tuning process Started 
-2022-08-12/13:24:24		Reading training data
-2022-08-12/13:24:24		Reading test data
-2022-08-12/13:24:24		Reading of train and test data done successfully!! Now model selection begins
-2022-08-12/14:03:26		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.15513511133828223, 'subsample': 0.44669441598772675}
-2022-08-12/14:03:36		model trained Successfully!! Now testing begins
-2022-08-12/14:03:36		confusion_matrix [[13333  1163]
- [  381 14115]]
-2022-08-12/14:03:36		accuracy_score 0.9467439293598234
-2022-08-12/14:03:37		roc_auc_score 0.9467439293598233
-2022-08-12/14:03:37		classification_report               precision    recall  f1-score   support
+2022-08-15/15:51:30		Model Selection and tuning process Started 
+2022-08-15/15:51:30		Reading training data
+2022-08-15/15:51:31		Reading test data
+2022-08-15/15:51:31		Reading of train and test data done successfully!! Now model selection begins
+2022-08-15/16:24:09		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.5773500990521782, 'subsample': 0.2897496867698789}
+2022-08-15/16:24:18		model trained Successfully!! Now testing begins
+2022-08-15/16:24:18		confusion_matrix [[13697   799]
+ [  487 14009]]
+2022-08-15/16:24:18		accuracy_score 0.95564293598234
+2022-08-15/16:24:18		roc_auc_score 0.9556429359823398
+2022-08-15/16:24:18		classification_report               precision    recall  f1-score   support
 
-         0.0       0.97      0.92      0.95     14496
-         1.0       0.92      0.97      0.95     14496
+         0.0       0.97      0.94      0.96     14496
+         1.0       0.95      0.97      0.96     14496
 
-    accuracy                           0.95     28992
-   macro avg       0.95      0.95      0.95     28992
-weighted avg       0.95      0.95      0.95     28992
+    accuracy                           0.96     28992
+   macro avg       0.96      0.96      0.96     28992
+weighted avg       0.96      0.96      0.96     28992
 
-2022-08-12/14:03:37		model tested successfully!!
-2022-08-12/14:03:37		Starting to Save ML model
-2022-08-12/14:03:37		XGBoostModel Saved
-2022-08-12/14:03:37		Model Selection and tuning Completed
-2022-08-12/14:19:44		Model Selection and tuning process Started 
-2022-08-12/14:19:44		Reading training data
-2022-08-12/14:19:44		Reading test data
-2022-08-12/14:19:44		Reading of train and test data done successfully!! Now model selection begins
-2022-08-12/14:53:39		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.6790434735045574, 'subsample': 0.19281944435374437}
-2022-08-12/14:53:48		model trained Successfully!! Now testing begins
-2022-08-12/14:53:48		confusion_matrix [[13657   839]
- [  549 13947]]
-2022-08-12/14:53:48		accuracy_score 0.9521247240618101
-2022-08-12/14:53:48		roc_auc_score 0.9521247240618101
-2022-08-12/14:53:48		classification_report               precision    recall  f1-score   support
-
-         0.0       0.96      0.94      0.95     14496
-         1.0       0.94      0.96      0.95     14496
-
-    accuracy                           0.95     28992
-   macro avg       0.95      0.95      0.95     28992
-weighted avg       0.95      0.95      0.95     28992
-
-2022-08-12/14:53:48		model tested successfully!!
-2022-08-12/14:53:48		Starting to Save ML model
-2022-08-12/14:53:48		XGBoostModel Saved
-2022-08-12/14:53:48		Model Selection and tuning Completed
-2022-08-12/14:54:38		Model Selection and tuning process Started 
-2022-08-12/14:54:38		Reading training data
-2022-08-12/14:54:38		Reading test data
-2022-08-12/14:54:38		Reading of train and test data done successfully!! Now model selection begins
-2022-08-12/15:29:04		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.6373184319597337, 'subsample': 0.41294046119657823}
-2022-08-12/15:29:18		model trained Successfully!! Now testing begins
-2022-08-12/15:29:18		confusion_matrix [[13548   948]
- [  423 14073]]
-2022-08-12/15:29:18		accuracy_score 0.9527110927152318
-2022-08-12/15:29:18		roc_auc_score 0.9527110927152318
-2022-08-12/15:29:18		classification_report               precision    recall  f1-score   support
+2022-08-15/16:24:18		model tested successfully!!
+2022-08-15/16:24:18		Starting to Save ML model
+2022-08-15/16:24:18		XGBoostModel Saved
+2022-08-15/16:24:18		Model Selection and tuning Completed
+2022-08-15/18:26:26		Model Selection and tuning process Started 
+2022-08-15/18:26:26		Reading training data
+2022-08-15/18:26:26		Reading test data
+2022-08-15/18:26:26		Reading of train and test data done successfully!! Now model selection begins
+2022-08-15/18:30:14		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.6916669617078373, 'subsample': 0.3186298205396}
+2022-08-15/18:30:23		model trained Successfully!! Now testing begins
+2022-08-15/18:30:23		confusion_matrix [[13502   994]
+ [  440 14056]]
+2022-08-15/18:30:23		accuracy_score 0.9505380794701986
+2022-08-15/18:30:23		roc_auc_score 0.9505380794701987
+2022-08-15/18:30:24		classification_report               precision    recall  f1-score   support
 
          0.0       0.97      0.93      0.95     14496
-         1.0       0.94      0.97      0.95     14496
-
-    accuracy                           0.95     28992
-   macro avg       0.95      0.95      0.95     28992
-weighted avg       0.95      0.95      0.95     28992
-
-2022-08-12/15:29:18		model tested successfully!!
-2022-08-12/15:29:18		Starting to Save ML model
-2022-08-12/15:29:18		XGBoostModel Saved
-2022-08-12/15:29:18		Model Selection and tuning Completed
-2022-08-12/15:31:12		Model Selection and tuning process Started 
-2022-08-12/15:31:12		Reading training data
-2022-08-12/15:31:13		Reading test data
-2022-08-12/15:31:13		Reading of train and test data done successfully!! Now model selection begins
-2022-08-12/16:12:09		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.5261084568284606, 'subsample': 0.40150064340264446}
-2022-08-12/16:12:20		model trained Successfully!! Now testing begins
-2022-08-12/16:12:20		confusion_matrix [[13376  1120]
- [  418 14078]]
-2022-08-12/16:12:20		accuracy_score 0.9469508830022075
-2022-08-12/16:12:20		roc_auc_score 0.9469508830022075
-2022-08-12/16:12:20		classification_report               precision    recall  f1-score   support
-
-         0.0       0.97      0.92      0.95     14496
          1.0       0.93      0.97      0.95     14496
 
     accuracy                           0.95     28992
    macro avg       0.95      0.95      0.95     28992
 weighted avg       0.95      0.95      0.95     28992
 
-2022-08-12/16:12:20		model tested successfully!!
-2022-08-12/16:12:20		Starting to Save ML model
-2022-08-12/16:12:20		XGBoostModel Saved
-2022-08-12/16:12:20		Model Selection and tuning Completed
-2022-08-12/16:24:01		Model Selection and tuning process Started 
-2022-08-12/16:24:01		Reading training data
-2022-08-12/16:24:02		Reading test data
-2022-08-12/16:24:02		Reading of train and test data done successfully!! Now model selection begins
-2022-08-12/16:34:01		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.4664444617615672, 'subsample': 0.4649110611491435}
-2022-08-12/16:34:12		model trained Successfully!! Now testing begins
-2022-08-12/16:34:12		confusion_matrix [[13474  1022]
- [  500 13996]]
-2022-08-12/16:34:12		accuracy_score 0.9475027593818984
-2022-08-12/16:34:12		roc_auc_score 0.9475027593818984
-2022-08-12/16:34:12		classification_report               precision    recall  f1-score   support
-
-         0.0       0.96      0.93      0.95     14496
-         1.0       0.93      0.97      0.95     14496
-
-    accuracy                           0.95     28992
-   macro avg       0.95      0.95      0.95     28992
-weighted avg       0.95      0.95      0.95     28992
-
-2022-08-12/16:34:12		model tested successfully!!
-2022-08-12/16:34:12		Starting to Save ML model
-2022-08-12/16:34:12		XGBoostModel Saved
-2022-08-12/16:34:12		Model Selection and tuning Completed
-2022-08-12/16:46:12		Model Selection and tuning process Started 
-2022-08-12/16:46:12		Reading training data
-2022-08-12/16:46:12		Reading test data
-2022-08-12/16:46:12		Reading of train and test data done successfully!! Now model selection begins
-2022-08-12/19:08:34		Hyperparameter tuning is completed and after comparing auc_roc_score and accuracy score of models we going to select model having hyperparameters: {'classifier': 'xgb', 'alpha': 0.5135697007366009, 'subsample': 0.4113767564896913}
-2022-08-12/19:08:44		model trained Successfully!! Now testing begins
-2022-08-12/19:08:44		confusion_matrix [[13362  1134]
- [  394 14102]]
-2022-08-12/19:08:44		accuracy_score 0.9472958057395143
-2022-08-12/19:08:44		roc_auc_score 0.9472958057395143
-2022-08-12/19:08:44		classification_report               precision    recall  f1-score   support
-
-         0.0       0.97      0.92      0.95     14496
-         1.0       0.93      0.97      0.95     14496
-
-    accuracy                           0.95     28992
-   macro avg       0.95      0.95      0.95     28992
-weighted avg       0.95      0.95      0.95     28992
-
-2022-08-12/19:08:44		model tested successfully!!
-2022-08-12/19:08:44		Starting to Save ML model
-2022-08-12/19:08:44		XGBoostModel Saved
-2022-08-12/19:08:44		Model Selection and tuning Completed
+2022-08-15/18:30:24		model tested successfully!!
+2022-08-15/18:30:24		Starting to Save ML model
+2022-08-15/18:30:24		XGBoostModel Saved
+2022-08-15/18:30:24		Model Selection and tuning Completed

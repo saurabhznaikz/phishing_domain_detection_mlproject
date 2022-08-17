@@ -211,3 +211,23 @@ def find_best_model(X_train,y_train):
 
     except Exception as e:
         raise e
+
+def load_model():
+        """
+                    Method Name: load_model
+                    Description: load the model file to memory
+                    Output: The Model file loaded in memory
+                    On Failure: Raise Exception
+
+                    Written By: Saurabh Naik
+                    Version: 1.0
+                    Revisions: None
+        """
+        model_directory = 'ML_pipelines/models/'
+        filename='XGBoost'
+        try:
+            with open(model_directory + filename + '/' + filename + '.sav',
+                      'rb') as f:
+                return pickle.load(f)
+        except Exception as e:
+            raise e

@@ -130,7 +130,6 @@ pyparsing==3.0.9
 pyperclip==1.8.2
 pyreadline3==3.4.1
 PySocks==1.7.1
-python-benedict==0.25.2
 python-dateutil==2.8.2
 python-dotenv==0.20.0
 python-fsutil==0.6.1

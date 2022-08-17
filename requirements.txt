@@ -69,7 +69,7 @@ ImageHash==4.2.1
 imagesize==1.4.1
 imbalanced-learn==0.9.0
 imblearn==0.0
-importlib-metadata==4.12.0
+importlib-metadata<=4.12.0
 importlib-resources==5.9.0
 itsdangerous==2.1.2
 jaraco.classes==3.2.2

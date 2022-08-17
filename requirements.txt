@@ -136,7 +136,7 @@ python-dotenv==0.20.0
 python-fsutil==0.6.1
 python-slugify==6.1.2
 pytz==2022.1
-PyYAML~=5.5
+PyYAML<=6.0
 requests==2.28.1
 rich==12.5.1
 rsa==4.7.2

@@ -228,8 +228,11 @@ def load_model():
         #print(os.getcwd())
         model_directory = "/ML_pipelines/models/"
         filename='XGBoost'
+        print(str(os.path.normpath(os.getcwd() + os.sep + os.pardir))+"/models/" + filename + '/' + filename + '.sav')
         try:
-            with open(str(os.path.normpath(os.getcwd() + os.sep + os.pardir))+model_directory + filename + '/' + filename + '.sav',
+            # with open(str(os.getcwd())+model_directory + filename + '/' + filename + '.sav',
+            #           'rb') as f:
+            with open(str(os.path.normpath(os.getcwd() + os.sep + os.pardir))+"/models/" + filename + '/' + filename + '.sav',
                       'rb') as f:
                 return pickle.load(f)
         except Exception as e:

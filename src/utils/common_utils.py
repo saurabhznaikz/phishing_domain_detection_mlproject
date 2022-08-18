@@ -223,12 +223,13 @@ def load_model():
                     Version: 1.0
                     Revisions: None
         """
-        p = Path(__file__).parents[2]
-        path = str(p) + "\src"
+        path = "C:/Users/Dell/PycharmProjects/Phishing_ml_project/phishing_domain_detection_mlproject/src"
+        #path="src"
+        #print(os.getcwd())
         model_directory = "/ML_pipelines/models/"
         filename='XGBoost'
         try:
-            with open(path+model_directory + filename + '/' + filename + '.sav',
+            with open(str(os.getcwd())+model_directory + filename + '/' + filename + '.sav',
                       'rb') as f:
                 return pickle.load(f)
         except Exception as e:

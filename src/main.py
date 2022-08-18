@@ -24,7 +24,7 @@ def home():
 @cross_origin()
 def predict():
     try:
-        filename = "XGBoost.sav"
+        filename = "XGBoost.pkl"
         model = pickle.load(open(filename, "rb"))
         #Getting user input details
         # qty_slash_url = request.json["qty_slash_url"]

@@ -111,7 +111,7 @@ def save_model(model,filename):
                 os.makedirs(path)
             else:
                 os.makedirs(path) #
-            with open(path +'/' + filename+'.sav',
+            with open(path +'/' + filename+'.pkl',
                       'wb') as f:
                 pickle.dump(model, f) # save the model to file
 

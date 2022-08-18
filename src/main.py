@@ -13,6 +13,8 @@ from src.training_Validation_Insertion import train_validation
 app = Flask(__name__)
 # dashboard.bind(app)
 CORS(app)
+filename = "XGBoost.pkl"
+model = pickle.load(open(filename, "rb"))
 
 @app.route("/", methods=['GET'])
 @cross_origin()
@@ -24,8 +26,6 @@ def home():
 @cross_origin()
 def predict():
     try:
-        filename = "XGBoost.pkl"
-        model = pickle.load(open(filename, "rb"))
         #Getting user input details
         # qty_slash_url = request.json["qty_slash_url"]
         qty_slash_url = request.form.get("qty_slash_url")

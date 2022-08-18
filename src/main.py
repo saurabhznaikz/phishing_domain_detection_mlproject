@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, jsonify
 from flask import Response
 from flask_cors import CORS, cross_origin
 from src.ML_pipelines.stage_03_prediction import prediction
-
+import pickle
 
 # os.putenv('LANG', 'en_US.UTF-8')
 # os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -24,6 +24,8 @@ def home():
 @cross_origin()
 def predict():
     try:
+        filename = "XGBoost.sav"
+        model = pickle.load(open(filename, "rb"))
         #Getting user input details
         # qty_slash_url = request.json["qty_slash_url"]
         qty_slash_url = request.form.get("qty_slash_url")
@@ -48,7 +50,8 @@ def predict():
         #ttl_hostname = request.json["ttl_hostname"]
         ttl_hostname = request.form.get("ttl_hostname")
         result=prediction(qty_slash_url,length_url,qty_dot_domain,qty_dot_directory,qty_hyphen_directory,file_length,
-                              qty_underline_directory,asn_ip,time_domain_activation,time_domain_expiration,ttl_hostname)
+                              qty_underline_directory,asn_ip,time_domain_activation,time_domain_expiration,ttl_hostname,
+                          model)
         #print(result)
         result1 = "This is a malicious website" if result==1 else "This is a legitimate website"
         r =Response(response=result1, status=200,mimetype='application/json')

@@ -6,8 +6,8 @@ import numpy as np
 
 
 def prediction(qty_slash_url, length_url, qty_dot_domain, qty_dot_directory, qty_hyphen_directory, file_length,
-               qty_underline_directory, asn_ip, time_domain_activation, time_domain_expiration, ttl_hostname):
-    model = load_model()
+               qty_underline_directory, asn_ip, time_domain_activation, time_domain_expiration, ttl_hostname,model):
+    model = model
     # list = [40, 1000, 20, 15, 20, 10, 10, 10, 15, 10, 10]
     list = []
     list.append(qty_slash_url)

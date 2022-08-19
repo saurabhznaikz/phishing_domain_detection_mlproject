@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html >
-
 <head>
   <meta charset="UTF-8">
   <title>Phishing classifier</title>
@@ -8,32 +7,82 @@
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-
+<style>
+     body {
+    background-image: url('static/phishing.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+</style>
 
 </head>
 
 <body>
  <div class="login">
-	<h1>Phishing domain detection</h1>
+	<h1 style="text-align: center;">Phishing domain detection</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="qty_slash_url" placeholder="qty_slash_url" required="required" /><br>
-    	<input type="text" name="length_url" placeholder="length_url" required="required" /><br>
-        <input type="text" name="qty_dot_domain" placeholder="qty_dot_domain" required="required" /><br>
-        <input type="text" name="qty_dot_directory" placeholder="qty_dot_directory" required="required" /><br>
-        <input type="text" name="qty_hyphen_directory" placeholder="qty_hyphen_directory" required="required" /><br>
-        <input type="text" name="file_length" placeholder="file_length" required="required" /><br>
-        <input type="text" name="qty_underline_directory" placeholder="qty_underline_directory" required="required" /><br>
-        <input type="text" name="asn_ip" placeholder="asn_ip" required="required" /><br>
-        <input type="text" name="time_domain_activation" placeholder="time_domain_activation" required="required" /><br>
-        <input type="text" name="time_domain_expiration" placeholder="time_domain_expiration" required="required" /><br>
-        <input type="text" name="ttl_hostname" placeholder="ttl_hostname" required="required" /><br>
+    <form style=" width: 50vw; margin-left : 25vw;" action="{{ url_for('predict')}}"method="post">
+        <div class="form-row">
 
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="qty_slash_url">Enter no of slash in entire URL:</label>
+            <input type="text" class="form-control" id="qty_slash_url" name="qty_slash_url" placeholder="Enter between 0 to 8" required="required" /><br>
+            </div>
 
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="length_url">Enter no characters in entire URL:</label>
+            <input type="text" class="form-control" id="length_url" name="length_url" placeholder="Enter between 5 to 100" required="required" /><br>
+            </div>
 
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="qty_dot_domain">Enter no dots in URL domain section:</label>
+            <input type="text" class="form-control" id="qty_dot_domain" name="qty_dot_domain" placeholder="Enter between 0 to 19" required="required" /><br>
+            </div>
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="qty_dot_directory">Enter no dots in URL directory section:</label>
+            <input type="text" class="form-control" id="qty_dot_directory" name="qty_dot_directory" placeholder="Enter between 0 to 19" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="qty_hyphen_directory">Enter no hyphen in URL directory section:</label>
+            <input type="text" class="form-control" id="qty_hyphen_directory" name="qty_hyphen_directory" placeholder="Enter between 1 to 23" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="file_length">Enter no of filename characters:</label>
+            <input type="text" class="form-control" id="file_length" name="file_length" placeholder="Enter between 0 to 18" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="qty_underline_directory">Enter no of underlines in directory section of URLs:</label>
+            <input type="text" class="form-control" id="qty_underline_directory" name="qty_underline_directory" placeholder="Enter between 0 to 18" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="asn_ip">Enter ASN ip no of the URL:</label>
+            <input type="text" class="form-control" id="asn_ip" name="asn_ip" placeholder="Enter between 0 to 7000" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="time_domain_activation">Enter time domain activation (in days):</label>
+            <input type="text" class="form-control" id="time_domain_activation" name="time_domain_activation" placeholder="Enter between 0 to 14000" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="time_domain_expiration">Enter time domain expiration (in days):</label>
+            <input type="text" class="form-control" id="time_domain_expiration" name="time_domain_expiration" placeholder="Enter between 0 to 850" required="required" /><br>
+            </div>
+
+            <div class="col-md-4 mb-3" style="padding-top:10px;padding-bottom:5px">
+            <label for="ttl_hostname">Enter time to live:</label>
+            <input type="text" class="form-control" id="ttl_hostname" name="ttl_hostname" placeholder="Enter between 0 to 28000" required="required" /><br>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </div>
     </form>
 
    <br>
@@ -41,7 +90,10 @@
 
 
  </div>
- {{prediction_text}}
+
+ <div class="col-md-4 mb-3"  style=" width: 50vw; margin-left : 25vw; font-weight: bold;" >
+    {{prediction_text}}
+ </div>
 
 </body>
 </html>

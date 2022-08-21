@@ -52,7 +52,7 @@ def predict():
                               qty_underline_directory,asn_ip,time_domain_activation,time_domain_expiration,ttl_hostname,
                           model)
         #print(result)
-        result1 = "This is a malicious website" if result==1 else "This is a legitimate website"
+        result1 = "malicious" if result==1 else "legitimate"
         r =Response(response=result1, status=200,mimetype='application/json')
         return render_template("index.html",prediction_text="{}".format(result1))
         # return r

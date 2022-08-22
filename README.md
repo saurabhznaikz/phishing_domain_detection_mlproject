@@ -35,6 +35,17 @@ To understand preprocessing steps please click link [EDA and preprocessing noteb
 
 To understand model selection and Hyperparameter tuning steps please click [optuna jupyter Notebook](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/notebooks/optuna.ipynb)
 
+## Documents
+For HLD document please click link [HLD Document](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/Phishing_Domain_Detector_HLD_1.1.pdf)
+
+For LLD document please click link [LLD Document](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/Phishing_Domain_Detector_LLD_1.0.pdf)
+
+For wireframe design document please click link [wireframe Design Document](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/Wireframe%20Design.pdf)
+
+For System architecture document please click link [System architecture Document](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/Architecture_document.pdf)
+
+For DPR(detailed project report) document please click link [DPR](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/Phishing-domain-detection.pdf)
+
 
 ## Deployment
 
@@ -116,3 +127,4 @@ https://phishing-domain-detector123.herokuapp.com/
 
 ## Performance Metrics
 ![Alt text](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/performance_matrix.png?raw=true "Optional Title")
+## Output

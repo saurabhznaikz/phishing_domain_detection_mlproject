@@ -109,6 +109,7 @@ jobs:
 ```
 
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/52929512/185861710-01fd4722-6da2-469f-b66c-a9bd6b2a199d.gif)
 
 ## Hosted Heroku API
 https://phishing-domain-detector123.herokuapp.com/

@@ -1,4 +1,4 @@
-
+![Phishing classifier - Google Chrome 2022-08-22 12-20-50](https://user-images.githubusercontent.com/52929512/185863089-ad6a21b7-68d1-43cc-832f-d65140e7b388.gif)
 # Phishing_domain_detection_mlproject
 
 An AI solution to detect whether the domain is real or malicious
@@ -127,5 +127,4 @@ https://phishing-domain-detector123.herokuapp.com/
 
 ## Performance Metrics
 ![Alt text](https://github.com/saurabhznaikz/phishing_domain_detection_mlproject/blob/master/docs/performance_matrix.png?raw=true "Optional Title")
-## Output
-![Phishing classifier - Google Chrome 2022-08-22 12-20-50](https://user-images.githubusercontent.com/52929512/185863089-ad6a21b7-68d1-43cc-832f-d65140e7b388.gif)
+
